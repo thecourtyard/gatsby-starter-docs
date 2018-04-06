@@ -25,7 +25,7 @@ class Index extends React.Component {
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
-            <h2>A Gatsby Template for Content</h2>
+            <h2>A Gatsby Template for Contenter123</h2>
             <p>Made for modern documentation sites. Table of Contents automatically generated from markdown files. </p>
             <CtaButton to={'/lesson-one'}>See Your First Post</CtaButton>
           </BodyContainer>
@@ -64,7 +64,7 @@ export const pageQuery = graphql`
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
-      edges { 
+      edges {
         node {
           fields {
             slug
