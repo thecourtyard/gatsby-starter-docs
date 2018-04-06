@@ -25,7 +25,7 @@ class Index extends React.Component {
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
-            <h2>A Gatsby Template for Contenter1234567</h2>
+            <h2>A Gatsby Template for Contenter12345671111</h2>
             <p>Made for modern documentation sites. Table of Contents automatically generated from markdown files. </p>
             <CtaButton to={'/lesson-one'}>See Your First Post</CtaButton>
           </BodyContainer>
